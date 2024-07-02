@@ -37,10 +37,10 @@ export default function Home(): ReactElement {
         <NavButton fa="fa-solid fa-list" onClick={() => navigate('/history')}>
           History
         </NavButton>
-        <NavButton className="relative" fa="fa-solid fa-plus">
+        {/* <NavButton className="relative" fa="fa-solid fa-plus">
           <PluginUploadInfo />
           Add a plugin
-        </NavButton>
+        </NavButton> */}
         <NavButton fa="fa-solid fa-gear" onClick={() => navigate('/options')}>
           Options
         </NavButton>
